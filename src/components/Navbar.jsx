@@ -1,23 +1,23 @@
-
-import React from "react";
-
 function Navbar() {
   return (
-    <nav>
-      <h2>zawed khan</h2>
+    <header className="navbar">
+<h2 className="nav-logo">
+  <span>Zawed</span> <span>Khan</span>
+</h2>
 
-    
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="#skills">Skills</a></li>
-  <li><a href="#projects">Projects</a></li>
-  <li><a href="#contact">Contact</a></li>
-</ul>
+      <ul className="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
 
-      <button>Hire Me</button>
-    </nav>
+      <a href="#contact" className="nav-btn">
+        Hire Me ↗
+      </a>
+    </header>
   );
 }
 

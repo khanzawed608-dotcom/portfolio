@@ -17,11 +17,8 @@ function Hero() {
           I create modern, responsive and beautiful
           websites using React, JavaScript and Tailwind CSS.
         </p>
-
-        <div className="hero-buttons">
-          <button>Hire Me</button>
-          <button>My Projects</button>
-        </div>
+ 
+          
 
       </div>
 
@@ -32,6 +29,7 @@ function Hero() {
     className="profile-3d"
   />
 </div>
+
 
     </section>
   );
